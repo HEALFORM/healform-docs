@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# HEALFORM Help Center
+# Willkommen im HEALFORM Hilfe-Center
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Entdecken wir gemeinsam das Leistungsspektrum der HEALFORM Cryotherapie.
 
 ## Getting Started
 
