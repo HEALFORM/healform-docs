@@ -6,10 +6,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'HEALFORM',
+  title: 'HEALFORM Support',
   tagline: 'Help Center',
   url: 'https://support.healform.de',
   baseUrl: '/',
+  favicon: '/img/favicon.png',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -42,6 +43,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'HEALFORM Support',
         logo: {
@@ -56,8 +62,8 @@ const config = {
             label: 'Help Center',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://my.healform.de',
+            label: 'myHEALFORM',
             position: 'right',
           },
         ],
