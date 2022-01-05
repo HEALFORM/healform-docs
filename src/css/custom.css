@@ -4,9 +4,11 @@
  * work well for content-centric websites.
  */
 
+@import "~@healform/design-tokens/dist/css/variables--root.css";
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #4753b7;
+  --ifm-color-primary: var(--colors-primary);
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);

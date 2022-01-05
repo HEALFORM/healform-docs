@@ -17,22 +17,20 @@ const config = {
   organizationName: 'HEALFORM', // Usually your GitHub org/user name.
   projectName: 'healform-docs', // Usually your repo name.
 
+  plugins: ["@chatwoot/docusaurus-plugin"],
+
   presets: [
     [
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/HEALFORM/healform-docs/edit/main/website/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/HEALFORM/healform-docs/edit/main/website/blog/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -117,6 +115,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      chatwoot: {
+        websiteToken: "esD6qmc4MUrJ7hJQQEk69CHM",
+        baseURL: "https://chat.healform.de",
+        enableInDevelopment: true
+      }
     }),
 };
 
