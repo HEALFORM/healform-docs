@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
-import {Body, Button, Card, CardContent, Headline} from "@healform/ui-library";
+import {Body, Button, Headline, Box} from "@healform/liquid";
 
 const FeatureList = [
   {
@@ -39,8 +39,8 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <Card>
-        <CardContent>
+      <Box>
+        <Box>
           <div className="text--center">
             <Svg className={styles.featureSvg} alt={title} />
           </div>
@@ -49,8 +49,8 @@ function Feature({Svg, title, description}) {
             <Body>{description}</Body>
           </div>
           <Button>Test</Button>
-        </CardContent>
-      </Card>
+        </Box>
+      </Box>
     </div>
   );
 }
