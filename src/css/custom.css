@@ -4,20 +4,18 @@
  * work well for content-centric websites.
  */
 
-@import "~@healform/design-tokens/dist/css/variables--root.css";
-
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: var(--colors-primary);
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: var(--healform-colors-primary-500);
+  --ifm-color-primary-dark: var(--healform-colors-primary-600);
+  --ifm-color-primary-darker: var(--healform-colors-primary-700);
+  --ifm-color-primary-darkest: var(--healform-colors-primary-800);
+  --ifm-color-primary-light: var(--healform-colors-primary-400);
+  --ifm-color-primary-lighter: var(--healform-colors-primary-300);
+  --ifm-color-primary-lightest: var(--healform-colors-primary-200);
   --ifm-code-font-size: 95%;
 
-  --ifm-font-family-base: -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --ifm-font-family-base: "Graphik", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .docusaurus-highlight-code-line {

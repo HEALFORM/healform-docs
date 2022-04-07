@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Body>
             <Link
               to="/docs/intro">
-              <Button>
+              <Button colorScheme={"white"} variant={"ghost"}>
                 Hilfe erhalten
               </Button>
             </Link>
