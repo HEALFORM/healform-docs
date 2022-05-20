@@ -63,7 +63,7 @@ module.exports = {
                     position: 'left',
                 },
                 {
-                    href: 'https://github.com/flagsmith/flagsmith',
+                    href: 'https://github.com/HEALFORM',
                     label: 'GitHub',
                     position: 'left',
                 },
