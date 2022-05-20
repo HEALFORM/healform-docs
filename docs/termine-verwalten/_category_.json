@@ -1,4 +1,5 @@
 {
-  "label": "Termine verwalten",
-  "position": 3
+    "label": "Termine verwalten",
+    "position": 30,
+    "collapsed": true
 }
