@@ -24,3 +24,16 @@
     --ifm-heading-font-family: var(--fonts-font-stack-heading);
     --ifm-heading-font-weight: var(--fonts-font-weight-medium);
 }
+
+@media (min-width: 997px) {
+    [class^="searchBox"] {
+        padding: 0!important;
+    }
+}
+
+.aa-DetachedSearchButton {
+    border-radius: var(--radius-xl)!important;
+    font-family: var(--fonts-font-stack-body)!important;
+    border-color: var(--colors-gray-200)!important;
+    min-width: 150px;
+}

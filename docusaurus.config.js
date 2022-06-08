@@ -9,7 +9,17 @@ module.exports = {
     favicon: 'img/logo.svg',
     organizationName: 'HEALFORM',
     projectName: 'healform',
-    plugins: ['@ionic-internal/docusaurus-plugin-tag-manager', '@chatwoot/docusaurus-plugin'],
+    plugins: [
+        '@ionic-internal/docusaurus-plugin-tag-manager',
+        '@chatwoot/docusaurus-plugin',
+        [
+            "@cmfcmf/docusaurus-search-local",
+            {
+                indexBlog: false,
+                indexPages: false,
+            },
+        ],
+    ],
     themeConfig: {
         prism: {
             additionalLanguages: ['java', 'csharp', 'ruby', 'rust', 'swift', 'dart', 'php'],
@@ -18,28 +28,6 @@ module.exports = {
             websiteToken: "esD6qmc4MUrJ7hJQQEk69CHM",
             baseURL: "https://chat.healform.de",
             enableInDevelopment: true
-        },
-        /*
-        typesense: {
-            typesenseCollectionName: 'flagsmith-docs',
-            typesenseServerConfig: {
-                apiKey: 'OY1ZDfWfrqSPcioQKuMP7hDd4o99BzKnhIVSOIP3nvn1GUih',
-                nodes: [
-                    {
-                        host: 'typesense.flagsmith.com',
-                        port: 443,
-                        protocol: 'https',
-                    },
-                ],
-            },
-        },
-        */
-        algolia: {
-            // The application ID provided by Algolia
-            appId: 'GZAPCBLIEE',
-            // Public API key: it is safe to commit it
-            apiKey: '00987f2d774d7787dcae25294463294c',
-            indexName: 'flagsmith',
         },
         tagManager: {
             trackingID: 'GTM-5ZV5K5G',
@@ -108,11 +96,11 @@ module.exports = {
                     items: [
                         {
                             label: 'Blog',
-                            to: 'https://flagsmith.com/blog/',
+                            to: '#',
                         },
                         {
                             label: 'Podcast',
-                            href: 'https://flagsmith.com/podcast/',
+                            href: '#',
                         },
                     ],
                 },
@@ -135,7 +123,7 @@ module.exports = {
                     sidebarPath: require.resolve('./sidebars.js'),
                     routeBasePath: '/',
                     // Please change this to your repo.
-                    editUrl: 'https://github.com/flagsmith/flagsmith-docs/tree/main',
+                    editUrl: 'https://github.com/HEALFORM/healform-docs/tree/main',
                 },
                 blog: false,
                 theme: {
