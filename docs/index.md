@@ -5,3 +5,5 @@ title: Fragen und Antworten rund um das Thema Kältetherapie und Terminbuchung b
 sidebar_position: 1
 sidebar_label: Allgemein
 ---
+
+# HEALFORM Support Center

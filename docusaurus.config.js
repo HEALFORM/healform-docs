@@ -46,18 +46,13 @@ module.exports = {
                     label: 'Support',
                 },
                 {
+                    href: 'https://my.healform.de',
+                    label: 'Termin vereinbaren',
+                    position: 'left',
+                },
+                {
                     href: 'https://healform.de',
                     label: 'HEALFORM.de',
-                    position: 'left',
-                },
-                {
-                    href: 'https://github.com/HEALFORM',
-                    label: 'GitHub',
-                    position: 'left',
-                },
-                {
-                    label: 'Discord',
-                    href: 'https://discord.gg/hFhxNtXzgm',
                     position: 'left',
                 },
             ],
@@ -109,7 +104,7 @@ module.exports = {
         },
         announcementBar: {
             id: 'support_us',
-            content: `If you like Flagsmith, give us a star 🌟 on <a target="_blank" rel="noopener noreferrer" href="https://github.com/Flagsmith/flagsmith">GitHub</a> and follow us ❤️ on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/getflagsmith">Twitter</a>`,
+            content: `If you like HEALFORM, give us a star 🌟 on <a target="_blank" rel="noopener noreferrer" href="https://github.com/HEALFORM/healform">GitHub</a> and follow us ❤️ on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/healform">Twitter</a>`,
             backgroundColor: '#ff0000',
             textColor: '#ffffff',
             isCloseable: true,
