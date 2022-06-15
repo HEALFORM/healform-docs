@@ -1,4 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+const tokens = require('@healform/design-tokens/dist/js/tokens');
+
 module.exports = {
     title: 'HEALFORM Support',
     tagline: 'Die coole Therapie.',
@@ -103,11 +105,11 @@ module.exports = {
             copyright: `Copyright © ${new Date().getFullYear()} HEALFORM GmbH. Built with Docusaurus.`,
         },
         announcementBar: {
-            id: 'support_us',
-            content: `If you like HEALFORM, give us a star 🌟 on <a target="_blank" rel="noopener noreferrer" href="https://github.com/HEALFORM/healform">GitHub</a> and follow us ❤️ on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/healform">Twitter</a>`,
-            backgroundColor: '#ff0000',
+            id: 'newApp',
+            content: `💫 myHEALFORM ist in Version 2.0 erschienen. Wenn es dir gefällt freuen wir uns über ein Like auf <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/healform">Facebook</a>.`,
+            backgroundColor: tokens.colors.primary['500'].value,
             textColor: '#ffffff',
-            isCloseable: true,
+            isCloseable: false,
         },
     },
     presets: [
